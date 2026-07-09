@@ -128,6 +128,3 @@ Open the shown address in **Chrome**.
 | `add_store_graphql` | add a new store | GraphQL |
 | `add_new_mall_rdf` | add a new mall (SPARQL INSERT) | RDF4J |
 
-## Note
-
-This repository is kept **private**, as required by the project guidelines (no public source hosting).
