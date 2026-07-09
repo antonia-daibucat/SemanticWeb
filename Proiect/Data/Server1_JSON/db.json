@@ -1,0 +1,200 @@
+{
+  "Mall": [
+    {
+      "id": "1",
+      "nume": "Iulius Mall",
+      "adresa": "Str.Alexandru Vaida Voevod 53B"
+    },
+    {
+      "id": "2",
+      "nume": "Vivo!",
+      "adresa": "Str.Avram Iancu 492-500"
+    },
+    {
+      "id": "3",
+      "nume": "Platinia",
+      "adresa": "Str.Calea Manastur 2-6"
+    },
+    {
+      "id": "4",
+      "nume": "Central",
+      "adresa": "Str.Regele Ferdinand 22-26"
+    },
+    {
+      "id": "5",
+      "nume": "Aushopping",
+      "adresa": "Str.Bulevardul Muncii 1-15"
+    }
+  ],
+  "magazine": [
+    {
+      "id": "1",
+      "mallId": "1",
+      "nume": "MAC",
+      "locatie": "Parter"
+    },
+    {
+      "id": "2",
+      "mallId": "1",
+      "nume": "KikoMilano",
+      "locatie": "Parter"
+    },
+    {
+      "id": "3",
+      "mallId": "1",
+      "nume": "Under Armour",
+      "locatie": "Etaj 1"
+    },
+    {
+      "id": "4",
+      "mallId": "1",
+      "nume": "Nike",
+      "locatie": "Etaj 1"
+    },
+    {
+      "id": "5",
+      "mallId": "1",
+      "nume": "Swarovski",
+      "locatie": "Parter"
+    },
+    {
+      "id": "6",
+      "mallId": "2",
+      "nume": "Pandora",
+      "locatie": "Poarta 3"
+    },
+    {
+      "id": "7",
+      "mallId": "2",
+      "nume": "Primark",
+      "locatie": "Poarta 4"
+    },
+    {
+      "id": "8",
+      "mallId": "2",
+      "nume": "Carturesti",
+      "locatie": "Poarta 3"
+    },
+    {
+      "id": "9",
+      "mallId": "2",
+      "nume": "Mango",
+      "locatie": "Poarta 1"
+    },
+    {
+      "id": "10",
+      "mallId": "2",
+      "nume": "NewYorker",
+      "locatie": "Poarta 4"
+    },
+    {
+      "id": "11",
+      "mallId": "3",
+      "nume": "H&M",
+      "locatie": "Parter"
+    },
+    {
+      "id": "12",
+      "mallId": "3",
+      "nume": "Sinsay",
+      "locatie": "Etaj 1"
+    },
+    {
+      "id": "13",
+      "mallId": "3",
+      "nume": "Columbia",
+      "locatie": "Parter"
+    },
+    {
+      "id": "14",
+      "mallId": "3",
+      "nume": "Jolidon",
+      "locatie": "Etaj 1"
+    },
+    {
+      "id": "15",
+      "mallId": "3",
+      "nume": "Cropp",
+      "locatie": "Parter"
+    },
+    {
+      "id": "16",
+      "mallId": "4",
+      "nume": "DM",
+      "locatie": "Parter"
+    },
+    {
+      "id": "17",
+      "mallId": "4",
+      "nume": "Pepco",
+      "locatie": "Etaj 1"
+    },
+    {
+      "id": "18",
+      "mallId": "4",
+      "nume": "Splendor",
+      "locatie": "Parter"
+    },
+    {
+      "id": "19",
+      "mallId": "4",
+      "nume": "ActiveBaby",
+      "locatie": "Etaj 2"
+    },
+    {
+      "id": "20",
+      "mallId": "4",
+      "nume": "Puma",
+      "locatie": "Etaj 2"
+    },
+    {
+      "id": "21",
+      "mallId": "5",
+      "nume": "Sportisimo",
+      "locatie": "Etaj 1"
+    },
+    {
+      "id": "22",
+      "mallId": "5",
+      "nume": "Altex",
+      "locatie": "Parter"
+    },
+    {
+      "id": "23",
+      "mallId": "5",
+      "nume": "Noriel",
+      "locatie": "Etaj 1"
+    },
+    {
+      "id": "24",
+      "mallId": "5",
+      "nume": "Contakt",
+      "locatie": "Etaj 1"
+    },
+    {
+      "id": "25",
+      "mallId": "5",
+      "nume": "Gino Rossi",
+      "locatie": "Etaj 1"
+    },
+    {
+      "mallId": 6,
+      "nume": "River",
+      "locatie": "Liviu Rebreanu",
+      "id": "LfN1v6il7kI"
+    },
+    {
+      "mallId": 4,
+      "nume": "Starbucks",
+      "locatie": "Parter",
+      "id": "hN1HFwwCoUU"
+    },
+    {
+      "mallId": 1,
+      "nume": "Gloria",
+      "locatie": "parter",
+      "id": "SSHwBYfjoJU"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

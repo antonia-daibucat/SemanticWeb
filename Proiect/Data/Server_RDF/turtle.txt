@@ -1,0 +1,64 @@
+@prefix : <http://cherechesDaibucat.ro#> .
+@prefix schema: <https://schema.org/> .
+
+
+
+:ClujMallsGraph {
+
+    
+    :mall1 a schema:ShoppingCenter ;
+        schema:name "Iulius Mall" ;
+        schema:address "Str.Alexandru Vaida Voevod 53B" .
+
+    :mall2 a schema:ShoppingCenter ;
+        schema:name "Vivo!" ;
+        schema:address "Str.Avram Iancu 492-500" .
+
+    :mall3 a schema:ShoppingCenter ;
+        schema:name "Platinia" ;
+        schema:address "Str.Calea Manastur 2-6" .
+
+    :mall4 a schema:ShoppingCenter ;
+        schema:name "Central" ;
+        schema:address "Str.Regele Ferdinand 22-26" .
+
+    :mall5 a schema:ShoppingCenter ;
+        schema:name "Aushopping" ;
+        schema:address "Str.Bulevardul Muncii 1-15" .
+
+    
+    # Iulius Mall
+    :mag1 a schema:Store ; schema:name "MAC" ; :locatie "Parter" ; schema:containedInPlace :mall1 .
+    :mag2 a schema:Store ; schema:name "KikoMilano" ; :locatie "Parter" ; schema:containedInPlace :mall1 .
+    :mag3 a schema:Store ; schema:name "Under Armour" ; :locatie "Etaj 1" ; schema:containedInPlace :mall1 .
+    :mag4 a schema:Store ; schema:name "Nike" ; :locatie "Etaj 1" ; schema:containedInPlace :mall1 .
+    :mag5 a schema:Store ; schema:name "Swarovski" ; :locatie "Parter" ; schema:containedInPlace :mall1 .
+
+    # Vivo!
+    :mag6 a schema:Store ; schema:name "Pandora" ; :locatie "Poarta 3" ; schema:containedInPlace :mall2 .
+    :mag7 a schema:Store ; schema:name "Primark" ; :locatie "Poarta 4" ; schema:containedInPlace :mall2 .
+    :mag8 a schema:Store ; schema:name "Carturesti" ; :locatie "Poarta 3" ; schema:containedInPlace :mall2 .
+    :mag9 a schema:Store ; schema:name "Mango" ; :locatie "Poarta 1" ; schema:containedInPlace :mall2 .
+    :mag10 a schema:Store ; schema:name "NewYorker" ; :locatie "Poarta 4" ; schema:containedInPlace :mall2 .
+
+    # Platinia
+    :mag11 a schema:Store ; schema:name "H&M" ; :locatie "Parter" ; schema:containedInPlace :mall3 .
+    :mag12 a schema:Store ; schema:name "Sinsay" ; :locatie "Etaj 1" ; schema:containedInPlace :mall3 .
+    :mag13 a schema:Store ; schema:name "Columbia" ; :locatie "Parter" ; schema:containedInPlace :mall3 .
+    :mag14 a schema:Store ; schema:name "Jolidon" ; :locatie "Etaj 1" ; schema:containedInPlace :mall3 .
+    :mag15 a schema:Store ; schema:name "Cropp" ; :locatie "Parter" ; schema:containedInPlace :mall3 .
+
+    # Central
+    :mag16 a schema:Store ; schema:name "DM" ; :locatie "Parter" ; schema:containedInPlace :mall4 .
+    :mag17 a schema:Store ; schema:name "Pepco" ; :locatie "Etaj 1" ; schema:containedInPlace :mall4 .
+    :mag18 a schema:Store ; schema:name "Splendor" ; :locatie "Parter" ; schema:containedInPlace :mall4 .
+    :mag19 a schema:Store ; schema:name "ActiveBaby" ; :locatie "Etaj 2" ; schema:containedInPlace :mall4 .
+    :mag20 a schema:Store ; schema:name "Puma" ; :locatie "Etaj 2" ; schema:containedInPlace :mall4 .
+
+    # Aushopping
+    :mag21 a schema:Store ; schema:name "Sportisimo" ; :locatie "Etaj 1" ; schema:containedInPlace :mall5 .
+    :mag22 a schema:Store ; schema:name "Altex" ; :locatie "Parter" ; schema:containedInPlace :mall5 .
+    :mag23 a schema:Store ; schema:name "Noriel" ; :locatie "Etaj 1" ; schema:containedInPlace :mall5 .
+    :mag24 a schema:Store ; schema:name "Contakt" ; :locatie "Etaj 1" ; schema:containedInPlace :mall5 .
+    :mag25 a schema:Store ; schema:name "Gino Rossi" ; :locatie "Etaj 1" ; schema:containedInPlace :mall5 .
+}
